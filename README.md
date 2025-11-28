@@ -1,202 +1,230 @@
-# 🌟 Hi, I'm **Muhammad Dwiva Arya Erlangga**
+# Hi, I'm **Muhammad Dwiva Arya Erlangga**
 
-### iOS Engineer • Machine Learning Developer • App-Store Publisher • Apple Developer Academy Graduate
+iOS Engineer • Machine Learning Developer • App Store Publisher • Apple Developer Academy Graduate
 
-📍 **Bali, Indonesia**
-📫 **[dwiva432@gmail.com](mailto:dwiva432@gmail.com)**
-🔗 **LinkedIn:** [https://linkedin.com/in/mdaryaerlangga](https://linkedin.com/in/mdaryaerlangga)
-🐙 **GitHub:** [https://github.com/ary3141](https://github.com/ary3141)
+Bali, Indonesia
+[dwiva432@gmail.com](mailto:dwiva432@gmail.com)
+LinkedIn: [https://linkedin.com/in/mdaryaerlangga](https://linkedin.com/in/mdaryaerlangga)
+GitHub: [https://github.com/ary3141](https://github.com/ary3141)
 
-I design and build intelligent iOS applications backed by machine learning and robust backend services. My passion lies in creating real-world, user-centric products that combine **on-device ML**, **real-time audio/vision processing**, and intuitive **user interfaces**. I’ve published apps on the App Store, contributed to ML and backend pipelines, and collaborated with cross-disciplinary teams to deliver production-ready solutions.
+I design and build intelligent iOS applications powered by machine learning, real-time audio/vision processing, and clean user experiences. I’ve published multiple apps on the App Store, engineered ML and backend systems, and collaborated with diverse teams through the Apple Developer Academy.
 
----
+My strengths include:
 
-# 🛠️ Tech Stack & Expertise
-
-* **Languages:** Swift · Python · JavaScript
-* **iOS / Mobile:** SwiftUI, SwiftData, UIKit, Combine, AVFoundation, CoreML, CoreData, MVVM architecture
-* **Machine Learning:** TensorFlow, scikit-learn, CoreML conversion (PyTorch → CoreML), on-device inference, data preprocessing & model tuning
-* **Backend / APIs:** Flask, REST APIs, WebSockets, Python backend services
-* **Tools & Workflow:** Git/GitHub, CocoaPods, Postman, Xcode, App Store Connect, TestFlight
+* On-device ML (CoreML, custom models, real-time inference)
+* SwiftUI architecture (MVVM, SwiftData, AVFoundation)
+* Backend development (Flask, REST APIs, WebSockets)
+* Full-stack ML systems (data → model → API → mobile interface)
 
 ---
 
-# 🚀 Projects & Highlights
+# Tech Stack & Expertise
 
-These are selected projects that showcase my skills in mobile engineering, ML integration, backend development, and cross-platform collaboration.
-
----
-
-## 📱 Mobile & iOS Applications
-
-### **Lulla — Emotional Voice Communication App**
-
-**AppStore:** [LullaTalk](https://apps.apple.com/my/app/lullatalk/id6751548919?l=ms)
-**Repo:** [Lulla](https://github.com/ary3141/Lulla)
-A mobile app designed to help parents and children express emotions via voice.
-
-* Built the **entire UI/UX with SwiftUI** and voice-interactions using **AVFoundation**.
-* Implemented **on-device secure storage** of emotional logs with **SwiftData** — ensures privacy and offline availability.
-* Designed responsive, real-time UI feedback for emotional expression.
-* **Impact:** Enabled intimate emotional communication through voice and intuitive UX, offering an accessible communication tool.
+Languages: Swift, Python, JavaScript
+iOS Development: SwiftUI, SwiftData, UIKit, Combine, AVFoundation, CoreML, CoreData
+Machine Learning: TensorFlow, scikit-learn, PyTorch-to-CoreML conversion, model training & optimization
+Backend / APIs: Flask, REST APIs, WebSockets, Python-based ML inference servers
+Tools: Git/GitHub, CocoaPods, Postman, Xcode, App Store Connect, TestFlight
 
 ---
 
-### **Bamboom — Gesture-Based Fitness Tracker**
+# Projects & Highlights
 
-**Repo:** [bamboom](https://github.com/SaputraUta/bamboom)
-A fitness app that tracks user gestures and exercises via motion sensors and ML classification.
-
-* Captured motion data using **Core Motion**, processed in Python, and trained a **KNN classifier with ~90% accuracy**.
-* Built iOS front-end with SwiftUI; planning integration of **CoreML** for on-device inference.
-* Demonstrated how mobile + ML + sensor data can combine to produce lightweight fitness apps.
+A selection of projects demonstrating experience in mobile engineering, ML, backend services, and full-system integration.
 
 ---
 
-### **OGMO — Live Transcription & Captioning**
+# Mobile & iOS Applications
 
-**App Store: ** [OGMO](https://apps.apple.com/my/app/ogmo-live-class-captions/id6755096384?l=ms)
-**Repo:** [OGMO](https://github.com/Wentao-tao/Unmute)
-A real-time transcription app designed for classrooms or lectures to assist hearing-impaired users or note-taking.
+## LullaTalk — Emotional Voice Communication App
 
-* Built audio capture pipeline using **AVAudioEngine**.
-* Integrated **Soniox transcription backend** for speech-to-text, while experimenting with **Apple Intelligence diarization**.
-* Worked on WebSocket architecture for custom ML-based live transcription stream (in development).
-* Showcases ability to integrate streaming, audio processing, and backend-powered ML in mobile apps.
+App Store: [https://apps.apple.com/my/app/lullatalk/id6751548919?l=ms](https://apps.apple.com/my/app/lullatalk/id6751548919?l=ms)
+Repository: [https://github.com/ary3141/Lulla](https://github.com/ary3141/Lulla)
 
----
+LullaTalk enables families to communicate emotions through guided voice interactions.
 
-## **ARound — Augmented Reality Object Detection App**
+What I built:
 
-**App Store:** [AroundADA](https://apps.apple.com/my/app/around-ada/id6746779581?l=ms)
-**Repository:** [Repo](https://github.com/Winfr1th/C2-RnB)
+* Full SwiftUI interface supporting expressive interactions
+* Voice recording and playback with AVFoundation
+* On-device emotional log storage using SwiftData
+* Dynamic UI feedback based on vocal expression
 
-ARound is an augmented-reality app that allows users to **identify objects around them in real time** using their device camera. Built as part of the Apple Developer Academy program, it combines **AR, machine learning, and CoreML inference** into an immersive mobile experience.
-
-### **What I built**
-
-* Implemented the **on-device machine learning pipeline** (YOLOv11 → CoreML)
-* Processed and optimized datasets, including image preprocessing and model tuning
-* Achieved **~97% model accuracy** and optimized inference speed to run smoothly on-device
-* Designed the SwiftUI interface for object detection and AR projection
-* Built the Python → CoreML conversion pipeline and testing scripts
-* Worked on the real-time detection flow (camera input → model → AR overlay)
-
-### **Tech Used**
-
-SwiftUI • CoreML • Vision • Python (model preprocessing) • ARKit (if used) • YOLOv11 → CoreML conversion
-
-### **Impact**
-
-Delivered an accessible and intuitive AR experience that allows users to understand their environment through real-time object detection — with fast inference and a clean UI.
+Impact: A private, accessible voice-based emotional communication tool.
 
 ---
 
-## 🤖 Machine Learning & AI Projects
+## OGMO — Live Classroom Captions
 
-### **AI-Exploration — ML Research Sandbox**
+App Store: [https://apps.apple.com/my/app/ogmo-live-class-captions/id6755096384?l=ms](https://apps.apple.com/my/app/ogmo-live-class-captions/id6755096384?l=ms)
+Repository: [https://github.com/Wentao-tao/Unmute](https://github.com/Wentao-tao/Unmute)
 
-**Repo:** [Ai-exploration](https://github.com/ary3141/Ai-exploration)
-A collection of ML experiments: classification, vision tasks, data preprocessing, and prototyping.
+A real-time captioning tool for classrooms and learning environments.
 
-* Experimented with various algorithms — vision models, data pipelines, model tuning.
-* Useful demonstration of foundational ML knowledge and hands-on data work.
+What I built:
 
-### **Tubes Pengantar Kecerdasan Buatan — Academic AI Project**
+* Audio processing pipeline using AVAudioEngine
+* Integrated Soniox for high-accuracy transcription
+* Experimented with Apple Intelligence diarization
+* Implemented SwiftUI interface for live captioning
+* Designed WebSocket-based custom ML streaming pipeline (in progress)
 
-**Repo:** [TubesPengantarKecerdasanBuatan](https://github.com/ary3141/TubesPengantarKecerdasanBuatan)
-Completed as part of university coursework — includes algorithm implementations, heuristic models, and documented experiments.
-Demonstrates strong academic foundation in AI theory, problem solving, and code documentation.
-
----
-
-## 🧰 Backend / Full-Stack & Web Projects
-
-## **ABP News Platform — Multiplatform News App (Mobile + Web + Backend API)**
-
-📱 **Mobile App:** Cross-platform news reader (Android/iOS via Flutter or similar)
-🌐 **Web App:** Interactive online news portal
-🔧 **Backend API:** Flask server for news aggregation + Gemini summarization
-📂 **Repo (Backend):** [https://github.com/ary3141/backendTubesABP](https://github.com/ary3141/backendTubesABP)
-📂 **Repo (Web):** [https://github.com/sagungputri/Tubes-ABP-WEB](https://github.com/sagungputri/Tubes-ABP-WEB)
-
-A **multi-platform news ecosystem** built for university's Application-Based Programming course.
-It includes a mobile app, a web interface, and a Flask backend that fetches live news, processes it, and summarizes it using **Google Gemini**.
-
-### **What I built**
-
-* Developed the **backend API** using Flask
-
-  * Fetches news articles from external sources
-  * Generates **AI-powered summaries** using Gemini
-  * Provides structured JSON endpoints for both mobile and web clients
-
-* Contributed to the **web front-end**
-
-  * Implemented UI components
-  * Integrated API endpoints for displaying news + summaries
-  * Ensured smooth user experience and responsiveness
-
-* Contributed to the **mobile app**
-
-  * Designed UI flows
-  * Integrated backend APIs
-  * Worked on cross-platform architecture
-
-### **Tech Used**
-
-Flask • REST APIs • Gemini API • HTML/CSS/JS • Flutter
-Cross-platform mobile integration • JSON data formatting
-
-### **Impact**
-
-Delivered a **full ecosystem**—backend, web app, and mobile app—capable of automatically fetching news, summarizing content using AI, and presenting it in a clean, unified user experience across multiple platforms.
-
-### **ToDo App — Basic CRUD Web Application**
-
-**Repo:** [todo-app](https://github.com/alipw/todo-app)
-A simple web application that implements CRUD operations — foundational project showing web fundamentals and practical coding practice.
+Impact: Enhances learning accessibility and lecture comprehension.
 
 ---
 
-## 🧠 Algorithms, Coursework & Utility Projects
+## ARound — Augmented Reality Object Detection
 
-### **CookingSteakProblem — Algorithm Challenge**
+App Store: [https://apps.apple.com/my/app/around-ada/id6746779581?l=ms](https://apps.apple.com/my/app/around-ada/id6746779581?l=ms)
+Repository: [https://github.com/Winfr1th/C2-RnB](https://github.com/Winfr1th/C2-RnB)
 
-**Repo:** [CookingSteakProblem](https://github.com/ary3141/CookingSteakProblem)
-Solves algorithmic problem using efficient Python code — demonstrates problem-solving, algorithmic thinking, and coding skill.
+ARound identifies objects in real time using AR and on-device machine learning.
 
-### **MultiThread — Networking & Concurrency**
+What I built:
 
-**Repo:** [MultiThread](https://github.com/ary3141/MultiThread)
-Demonstrates multithreading, concurrent client-server architecture — good baseline for networked applications and backend systems.
+* YOLOv11-to-CoreML pipeline and optimization
+* Achieved approximately 97% accuracy through tuning and preprocessing
+* Real-time camera-to-model-to-AR overlay system
+* SwiftUI interface for AR detection flows
+* Python scripts for model conversion and evaluation
+
+Impact: Delivers fast AR object recognition with intuitive visual feedback.
 
 ---
 
-# Featured Full-Stack + ML + Mobile System
+## Bamboom — Gesture-Based Fitness Tracker
 
-## **GoVision — Visual Assistance System (iOS + Backend + ML)**
+Repository: [https://github.com/SaputraUta/bamboom](https://github.com/SaputraUta/bamboom)
 
-A complete end-to-end system combining mobile app, backend, and ML model server for accessibility.
+A motion-based fitness application using ML classification.
 
-### GoVision Frontend
+What I built:
 
-**Repo:** [govision_app](https://github.com/dikaizm/govision_app.git)
+* Motion sensing with Core Motion
+* KNN gesture classifier achieving roughly 90% accuracy
+* Python preprocessing and training pipeline
+* SwiftUI workout interface
+* Planned CoreML deployment for on-device inference
 
-* SwiftUI-based mobile app capturing camera/video frames in real time
-* Sends frames to backend for ML inference — designed for accessibility and assistive vision use cases
+Impact: Demonstrates sensor fusion and ML applied to fitness.
 
-### GoVision Backend API
+---
 
-**Repo:** [govision_backend](https://github.com/dikaizm/govision_backend.git)
+# Machine Learning & AI Projects
 
-* Flask / FastAPI backend that accepts image input, runs detection, and returns structured results to client
+## AI-Exploration — ML Research Sandbox
 
-### GoVision Model Server
+Repository: [https://github.com/ary3141/Ai-exploration](https://github.com/ary3141/Ai-exploration)
 
-**Repo:** [govision_model](https://github.com/dikaizm/govision_model.git)
+An exploration hub for ML experimentation.
 
-* ML model loading + inference pipeline (object detection/classification)
-* Integrated with backend to serve real-time vision inference results
+Highlights:
 
-*This project illustrates my capability to design and build full-stack, ML-powered mobile systems — from camera input to inference to UI output.*
+* Vision tasks and classification
+* Data preprocessing and augmentation
+* Feature engineering
+* Model tuning and evaluations
+
+---
+
+## Tubes Pengantar Kecerdasan Buatan — Academic AI Project
+
+Repository: [https://github.com/ary3141/TubesPengantarKecerdasanBuatan](https://github.com/ary3141/TubesPengantarKecerdasanBuatan)
+
+University AI coursework covering classical algorithms and heuristics.
+
+Highlights:
+
+* Heuristic search
+* Classification models
+* Documented experimentation in notebooks
+
+---
+
+# Backend / Web & Full-Stack Development
+
+## ABP News Platform — Multiplatform News System (Mobile, Web, Backend API)
+
+Mobile App: Cross-platform (Flutter)
+Web App: News web portal
+Backend API: Flask service with Gemini summarization
+
+Backend Repo: [https://github.com/ary3141/backendTubesABP](https://github.com/ary3141/backendTubesABP)
+Web Repo: [https://github.com/sagungputri/Tubes-ABP-WEB](https://github.com/sagungputri/Tubes-ABP-WEB)
+
+A multi-platform news ecosystem with AI-powered summaries.
+
+What I built:
+
+Backend (Primary Role):
+
+* Flask API for news aggregation
+* Gemini integration for AI summarization
+* REST endpoints for mobile and web clients
+
+Web Frontend:
+
+* UI components and API integration
+* News display flows and interaction design
+
+Mobile App:
+
+* UI flows
+* Backend integration
+* Cross-platform logic implementation
+
+Impact: A complete news delivery system with automated AI summaries across mobile and web.
+
+---
+
+## ToDo App — Basic CRUD Web Application
+
+Repository: [https://github.com/alipw/todo-app](https://github.com/alipw/todo-app)
+
+A simple web-based CRUD tool demonstrating frontend fundamentals.
+
+---
+
+# Algorithms, Networking & Coursework
+
+## CookingSteakProblem — Algorithm Challenge
+
+Repository: [https://github.com/ary3141/CookingSteakProblem](https://github.com/ary3141/CookingSteakProblem)
+
+Efficient solution to an optimization-based computational problem.
+
+---
+
+## MultiThread — Networking & Concurrency
+
+Repository: [https://github.com/ary3141/MultiThread](https://github.com/ary3141/MultiThread)
+
+Multithreaded client–server architecture demonstrating network communication patterns.
+
+---
+
+# Featured End-to-End System (iOS + Backend + ML)
+
+## GoVision — Visual Assistance System
+
+A full-stack system combining mobile iOS UI, backend API, and ML models.
+
+GoVision iOS App
+Repository: [https://github.com/dikaizm/govision_app.git](https://github.com/dikaizm/govision_app.git)
+
+* SwiftUI interface
+* Real-time frame capture
+* Sends data to backend for inference
+
+GoVision Backend API
+Repository: [https://github.com/dikaizm/govision_backend](https://github.com/dikaizm/govision_backend)
+
+* Flask / FastAPI endpoints
+* Handles requests and returns detections
+
+GoVision Model Server
+Repository: [https://github.com/dikaizm/govision_model](https://github.com/dikaizm/govision_model)
+
+* Model loading and inference
+* Preprocessing and postprocessing
+* Integrated with the backend for live inference
