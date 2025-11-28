@@ -124,6 +124,36 @@ Highlights:
 * Data preprocessing and augmentation
 * Feature engineering
 * Model tuning and evaluations
+---
+
+## Trash Detection in Surface Waters — Dataset Preparation & Model Fine-Tuning
+
+*Internal AI Lab Project (no public repository)*
+
+This project focused on detecting floating trash in waterways using YOLOv8. I contributed directly to the **dataset engineering** and **model fine-tuning** stages of the research.
+
+### What I worked on
+
+* Cleaned, organized, and prepared datasets used in the experiment, including:
+
+  * WaterTrash
+  * FloW-Img
+  * UAVVaste
+  * TACO
+* Ensured proper labeling consistency and train/val/test splits.
+* Performed **fine-tuning of YOLOv8 models** (n, s, m, l, x variants) using the curated datasets.
+* Helped monitor model performance during training and adjust parameters as needed to improve accuracy.
+
+### Tech & Methods
+
+* YOLOv8 (Ultralytics)
+* Dataset preprocessing (cleaning, annotation validation, balancing)
+* Model fine-tuning & evaluation loops
+* mAP50, precision, and recall monitoring
+
+### Impact
+
+Supported the development of a robust trash detection model by ensuring high-quality datasets and optimized fine-tuning runs, contributing to improvements in model accuracy and consistency.
 
 ---
 
