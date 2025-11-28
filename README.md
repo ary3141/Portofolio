@@ -145,7 +145,7 @@ It includes a mobile app, a web interface, and a Flask backend that fetches live
 
 ### **Tech Used**
 
-Flask • REST APIs • Gemini API • HTML/CSS/JS • (Flutter/React Native or whichever mobile stack used)
+Flask • REST APIs • Gemini API • HTML/CSS/JS • Flutter
 Cross-platform mobile integration • JSON data formatting
 
 ### **Impact**
